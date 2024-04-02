@@ -1,0 +1,46 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Alvin\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add solc@0.8.10-fixed
+
+PATH: 
+  c:\devkitPro\msys2\usr\bin;C:\Program Files\Eclipse Adoptium\jdk-11.0.18.10-hotspot\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\ffmpeg;C:\Program Files\dotnet\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Geth;C:\Program Files\Go\bin;C:\Program Files\gsudo\Current;C:\Users\Alvin\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\Alvin\AppData\Local\Programs\Python\Python39\;C:\Users\Alvin\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\Alvin\AppData\Local\Programs\Python\Python310\;C:\Users\Alvin\AppData\Local\Microsoft\WindowsApps;C:\Users\Alvin\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Alvin\AppData\Roaming\Python\Python310\Scripts;c:\users\alvin\.local\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2022.2.3\bin;C:\Users\Alvin\AppData\Roaming\npm;C:\ffmpeg;C:\Users\Alvin\AppData\Local\Programs\Fiddler;C:\Users\Alvin\go\bin;C:\mingw64\bin;
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.12.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Users\Alvin\Downloads\balancer-flash-loan\node_modules\keccak\prebuilds\win32-x64\node.napi.node'
+
+npm manifest: 
+  {
+    "name": "hardhat-project",
+    "dependencies": {
+      "@balancer-labs/v2-interfaces": "^0.4.0",
+      "@flashbots/ethers-provider-bundle": "^0.6.2",
+      "@nomicfoundation/hardhat-toolbox": "^1.0.2",
+      "@studydefi/money-legos": "^1.0.6",
+      "@types/node": "^20.5.6",
+      "@uniswap/v3-periphery": "^1.4.3",
+      "dotenv": "^16.3.1",
+      "ethers": "^5.7.2",
+      "hardhat": "^2.17.1",
+      "ts-node": "^10.9.1",
+      "tslib": "^2.6.2",
+      "typecript": "^0.0.1-security"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.22.15",
+      "@babel/register": "^7.22.15"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
